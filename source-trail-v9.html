@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Predictive History Source-Trail Preview</title>
+    <meta
+      name="description"
+      content="A source-trail-first Predictive History study companion preview for people trying to make sense of a complex world."
+    />
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f4f1ea;
+        --ink: #171612;
+        --muted: #635d53;
+        --line: #d7d0c1;
+        --accent: #245f4f;
+        --accent-2: #8a3e2f;
+        --panel: #fffaf0;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family:
+          Inter,
+          ui-sans-serif,
+          system-ui,
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          sans-serif;
+        background: var(--bg);
+        color: var(--ink);
+        letter-spacing: 0;
+      }
+
+      main {
+        min-height: 100vh;
+      }
+
+      .hero {
+        display: grid;
+        grid-template-columns: minmax(0, 1.05fr) minmax(320px, 0.95fr);
+        gap: clamp(28px, 5vw, 76px);
+        align-items: center;
+        min-height: 84vh;
+        padding: clamp(28px, 7vw, 88px);
+        border-bottom: 1px solid var(--line);
+      }
+
+      .eyebrow {
+        color: var(--accent-2);
+        font-size: 0.82rem;
+        font-weight: 850;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      h1 {
+        max-width: 880px;
+        margin: 18px 0 20px;
+        font-size: clamp(2.2rem, 6vw, 5.6rem);
+        line-height: 0.98;
+        letter-spacing: 0;
+      }
+
+      .lede {
+        max-width: 700px;
+        margin: 0 0 26px;
+        color: var(--muted);
+        font-size: clamp(1.08rem, 2vw, 1.36rem);
+        line-height: 1.52;
+      }
+
+      .ctaRow {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        align-items: center;
+      }
+
+      a.button,
+      a.secondaryButton {
+        display: inline-flex;
+        min-height: 48px;
+        align-items: center;
+        justify-content: center;
+        padding: 0 18px;
+        border-radius: 6px;
+        font-weight: 850;
+        text-decoration: none;
+      }
+
+      a.button {
+        background: var(--accent);
+        color: white;
+      }
+
+      a.secondaryButton {
+        border: 1px solid var(--accent);
+        color: var(--accent);
+      }
+
+      .map {
+        border: 1px solid var(--line);
+        background: var(--panel);
+      }
+
+      .mapRow {
+        display: grid;
+        grid-template-columns: 92px minmax(0, 1fr);
+        gap: 18px;
+        padding: 22px;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .mapRow:last-child {
+        border-bottom: 0;
+      }
+
+      .label {
+        color: var(--accent-2);
+        font-size: 0.78rem;
+        font-weight: 850;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      .mapRow p {
+        margin: 0;
+        color: var(--muted);
+        line-height: 1.48;
+      }
+
+      .below {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 1px;
+        background: var(--line);
+        padding: 1px;
+      }
+
+      .below section {
+        min-height: 210px;
+        background: var(--bg);
+        padding: clamp(22px, 4vw, 44px);
+      }
+
+      h2 {
+        margin: 0 0 12px;
+        font-size: clamp(1.35rem, 3vw, 2rem);
+        letter-spacing: 0;
+      }
+
+      .below p {
+        margin: 0;
+        color: var(--muted);
+        line-height: 1.55;
+      }
+
+      code {
+        font-size: 0.92em;
+      }
+
+      @media (max-width: 840px) {
+        .hero {
+          grid-template-columns: 1fr;
+          min-height: auto;
+          padding: 26px 20px 36px;
+        }
+
+        .mapRow {
+          grid-template-columns: 1fr;
+          gap: 8px;
+        }
+
+        .below {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="hero">
+        <section>
+          <div class="eyebrow">Source trail first</div>
+          <h1>Do not just watch the argument. Trace it.</h1>
+          <p class="lede">
+            The last public test earned a real view, but no proof inspection or feedback. This version leads with the
+            study path: open the source trail, then decide whether the preview deserves a deeper cut.
+          </p>
+          <div class="ctaRow">
+            <a
+              class="button"
+              href="https://predictive-history-web-production.up.railway.app/read/predictive-history__VbowBTJWKBo?utm_source=github_pages&utm_medium=source_trail_landing&utm_campaign=ph_human_cold_open_preview&utm_content=github_pages_source_trail_v9"
+            >
+              Open the source trail
+            </a>
+            <a
+              class="secondaryButton"
+              href="https://predictive-history-web-production.up.railway.app/preview/human-cold-open-world-feels-too-complex-v1?utm_source=github_pages&utm_medium=source_trail_landing&utm_campaign=ph_human_cold_open_preview&utm_content=github_pages_source_trail_v9"
+            >
+              Watch the preview
+            </a>
+          </div>
+        </section>
+        <aside class="map" aria-label="Study path">
+          <div class="mapRow">
+            <div class="label">Step 1</div>
+            <p>Start with the episode source trail instead of a generic pitch.</p>
+          </div>
+          <div class="mapRow">
+            <div class="label">Step 2</div>
+            <p>Use the preview to decide whether the app makes the argument easier to keep in your head.</p>
+          </div>
+          <div class="mapRow">
+            <div class="label">Step 3</div>
+            <p>Measure whether real viewers inspect sources, play the storyboard, or request the next map.</p>
+          </div>
+        </aside>
+      </div>
+      <div class="below">
+        <section>
+          <h2>Evidence Before Hype</h2>
+          <p>This surface asks for a small behavior: inspect the trail before judging the product.</p>
+        </section>
+        <section>
+          <h2>One Marker</h2>
+          <p>Current marker: <code>github_pages_source_trail_v9</code>. The next read should compare source-trail and preview behavior.</p>
+        </section>
+        <section>
+          <h2>Next Decision</h2>
+          <p>If source-trail interest appears without preview engagement, the next product surface should lead with reading, not video.</p>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
